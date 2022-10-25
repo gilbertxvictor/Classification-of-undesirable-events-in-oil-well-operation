@@ -12,4 +12,21 @@ To contribute to providing a priori knowledge about undesirable events for diagn
 - Build an ML model that accurately predict the state of flow in a well
 
 **DATA INFORMATION**
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/98072583/197747127-97c2706b-b535-49f9-9071-d78ed1b353f3.png)
+
+![image](https://user-images.githubusercontent.com/98072583/197750660-8cf2118c-3b37-43b4-b6f9-b90437208af1.png)
+
+
+|ATTRIBUTES  |Description                                               |
+|----------- |----------------------------------------------------------|
+|T-JUS-CKGL	 |Temperature downstream of Gas lift Choke(CKGL)            |
+|P-JUS-CKGL	 |Pressure downstream of Gas lift Choke(CKGL)               |
+|QGL	       |Gas lift Flow rate                                        |
+|T-TPT	     |Temp. @ Temperature Pressure Transducer(TPT)              |
+|P-TPT	     |Pressure @ Temperature Pressure Transducer(TPT)           |
+|T-JUS-CKP   |Temperature downstream of Production Choke(CPK)           |
+|P-MON-CKP	 |Pressure upstream of Production choke(CPK)                |
+|P-PDG	     |Pressure at Permanent Downhole Guage                      |
+|class	     |Condition of flow                                         |
+|timestamp   |Time of occurance 	                                      |
+
